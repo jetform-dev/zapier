@@ -2,7 +2,7 @@ module.exports = {
   type: 'custom',
   test: {
     headers: { Authorization: 'Bearer {{bundle.authData.api_key}}' },
-    url: 'https://app.jetform.me/api/v1/orders',
+    url: 'https://app.jetform.id/api/v1/orders',
   },
   fields: [
     {
@@ -12,7 +12,7 @@ module.exports = {
       label: 'API Key',
       type: 'password',
       helpText:
-        'Anda bisa membuat API KEY dari halaman integrasi JetForm:\nhttps://app.jetform.me/integrations',
+        'Anda bisa membuat API KEY dari halaman integrasi JetForm:\nhttps://app.jetform.id/integrations',
     },
   ],
   customConfig: {},

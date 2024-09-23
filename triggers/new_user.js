@@ -11,7 +11,7 @@ module.exports = {
         as_array: 'true',
       },
       removeMissingValuesFrom: { params: true, body: true },
-      url: 'https://app.jetform.me/api/v1/users',
+      url: 'https://app.jetform.id/api/v1/users',
     },
     inputFields: [
       {
